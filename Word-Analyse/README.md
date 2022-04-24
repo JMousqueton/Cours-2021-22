@@ -4,7 +4,7 @@
 
 1. Analyzing with [oledump.py](oledump/oledump.py)
    
-``oledump.py a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc```
+```oledump.py a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc```
 
 2. Analyzing with [zipdump.py](zipdump.py)
 
