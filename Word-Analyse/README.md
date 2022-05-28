@@ -12,7 +12,9 @@
 
 > Besides the 2 PNG files, it looks like there are only XML files inside. And the timestamps are all 1980-01-01, exactly what it should be for an OOXML file created with Office. It contains a word/document.xml file, so it's very likely a .DOCX file.
 
-3. Looking for unusal URLs with [zipdump.py](zipdump.py) and [re-search.py](re-search/re-search.py)
+![zipdump](images/zipdump.png)
+
+1. Looking for unusal URLs with [zipdump.py](zipdump.py) and [re-search.py](re-search/re-search.py)
 
 ```zipdump.py -D a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc | re-search.py -u -n url -F officeurls```
 
