@@ -18,15 +18,27 @@
 
 ```zipdump.py -D a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc | re-search.py -u -n url -F officeurls```
 
+Result should look like : 
+
+```
+❯ python3 zipdump.py -D malicious/a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc | python3 ./re-search/re-search.py -u -n url -F officeurls
+https://lucid.app/lucidchart/c57b0810-0515-4b46-9711-2c823202cf5c/edit?invitationId=inv_310a55d5-05f2-404a-a98d-b336e27c168c
+```
+
 4. Looking for hyperlink with [zipdump.py](zipdump.py) and [xmldump.py](xmldump.py)
 
 ```zipdump.py -s 4 -d a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc | xmldump.py pretty``` 
 
 So there is a hyperlink so it's probably a phishing document.
 
+![zipdump-xmldump](images/zipdump-xmldump.png)
+
+
 5. Looking at the text with [zipdump.py](zipdump.py) and [xmldump.py](xmldump.py)
    
 ```zipdump.py -s 3 -d  a59fd8453397ed25525e90cad7d294b19fcd7459e237ca0eb20d189c72656ee1.doc | xmldump.py wordtext``` 
+
+![zipdump-xmldump](images/wordtext.png)
 
 
 ## Source
