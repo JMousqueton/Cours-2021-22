@@ -45,7 +45,7 @@ So there is a hyperlink so it's probably a phishing document.
 
 - [Article Analyzing a phishing word document](https://isc.sans.edu/forums/diary/Analyzing+a+Phishing+Word+Document/28562) on SANS ISC InfoSec Forums from [Didier Stevens](https://blog.didierstevens.com/)
 - Tools from [Didier Stevens](https://blog.didierstevens.com/)
-  - [re-search.py](https://blog.didierstevens.com/2022/05/26/update-re-search-py-version-0-0-20/)
-  - [oledump.py](https://blog.didierstevens.com/2022/04/29/update-oledump-py-version-0-0-65/)
+  - [re-search.py](https://blog.didierstevens.com/2022/07/24/update-re-search-py-version-0-0-21/)
+  - [oledump.py](https://blog.didierstevens.com/2022/07/23/update-oledump-py-version-0-0-69/)
   - [xlmdump.py](https://blog.didierstevens.com/2021/07/04/update-xmldump-py-version-0-0-7/)
-  - [zipdump.py](https://blog.didierstevens.com/2020/12/25/update-zipdump-py-version-0-0-21/)
+  - [zipdump.py](https://blog.didierstevens.com/2022/05/13/update-zipdump-py-version-0-0-22/)
